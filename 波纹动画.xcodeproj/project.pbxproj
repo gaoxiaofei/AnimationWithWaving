@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1819531F068B36004E4EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1819521F068B36004E4EE9 /* AppDelegate.swift */; };
+		1F1819551F068B36004E4EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1819541F068B36004E4EE9 /* ViewController.swift */; };
+		1F1819581F068B36004E4EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1819561F068B36004E4EE9 /* Main.storyboard */; };
+		1F18195A1F068B36004E4EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1819591F068B36004E4EE9 /* Assets.xcassets */; };
+		1F18195D1F068B36004E4EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F18195B1F068B36004E4EE9 /* LaunchScreen.storyboard */; };
+		1F1819681F068B36004E4EE9 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1819671F068B36004E4EE9 /* ____Tests.swift */; };
+		1F1819731F068B36004E4EE9 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1819721F068B36004E4EE9 /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1819641F068B36004E4EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1819471F068B36004E4EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F18194E1F068B36004E4EE9;
+			remoteInfo = "波纹动画";
+		};
+		1F18196F1F068B36004E4EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1819471F068B36004E4EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F18194E1F068B36004E4EE9;
+			remoteInfo = "波纹动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F18194F1F068B36004E4EE9 /* 波纹动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "波纹动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1819521F068B36004E4EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F1819541F068B36004E4EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F1819571F068B36004E4EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F1819591F068B36004E4EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F18195C1F068B36004E4EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F18195E1F068B36004E4EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1819631F068B36004E4EE9 /* 波纹动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "波纹动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1819671F068B36004E4EE9 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		1F1819691F068B36004E4EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F18196E1F068B36004E4EE9 /* 波纹动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "波纹动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1819721F068B36004E4EE9 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		1F1819741F068B36004E4EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F18194C1F068B36004E4EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1819601F068B36004E4EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18196B1F068B36004E4EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1819461F068B36004E4EE9 = {
+			isa = PBXGroup;
+			children = (
+				1F1819511F068B36004E4EE9 /* 波纹动画 */,
+				1F1819661F068B36004E4EE9 /* 波纹动画Tests */,
+				1F1819711F068B36004E4EE9 /* 波纹动画UITests */,
+				1F1819501F068B36004E4EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1819501F068B36004E4EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F18194F1F068B36004E4EE9 /* 波纹动画.app */,
+				1F1819631F068B36004E4EE9 /* 波纹动画Tests.xctest */,
+				1F18196E1F068B36004E4EE9 /* 波纹动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1819511F068B36004E4EE9 /* 波纹动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1F1819521F068B36004E4EE9 /* AppDelegate.swift */,
+				1F1819541F068B36004E4EE9 /* ViewController.swift */,
+				1F1819561F068B36004E4EE9 /* Main.storyboard */,
+				1F1819591F068B36004E4EE9 /* Assets.xcassets */,
+				1F18195B1F068B36004E4EE9 /* LaunchScreen.storyboard */,
+				1F18195E1F068B36004E4EE9 /* Info.plist */,
+			);
+			path = "波纹动画";
+			sourceTree = "<group>";
+		};
+		1F1819661F068B36004E4EE9 /* 波纹动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1819671F068B36004E4EE9 /* ____Tests.swift */,
+				1F1819691F068B36004E4EE9 /* Info.plist */,
+			);
+			path = "波纹动画Tests";
+			sourceTree = "<group>";
+		};
+		1F1819711F068B36004E4EE9 /* 波纹动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1819721F068B36004E4EE9 /* ____UITests.swift */,
+				1F1819741F068B36004E4EE9 /* Info.plist */,
+			);
+			path = "波纹动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F18194E1F068B36004E4EE9 /* 波纹动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1819771F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画" */;
+			buildPhases = (
+				1F18194B1F068B36004E4EE9 /* Sources */,
+				1F18194C1F068B36004E4EE9 /* Frameworks */,
+				1F18194D1F068B36004E4EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "波纹动画";
+			productName = "波纹动画";
+			productReference = 1F18194F1F068B36004E4EE9 /* 波纹动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1819621F068B36004E4EE9 /* 波纹动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F18197A1F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画Tests" */;
+			buildPhases = (
+				1F18195F1F068B36004E4EE9 /* Sources */,
+				1F1819601F068B36004E4EE9 /* Frameworks */,
+				1F1819611F068B36004E4EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1819651F068B36004E4EE9 /* PBXTargetDependency */,
+			);
+			name = "波纹动画Tests";
+			productName = "波纹动画Tests";
+			productReference = 1F1819631F068B36004E4EE9 /* 波纹动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F18196D1F068B36004E4EE9 /* 波纹动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F18197D1F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画UITests" */;
+			buildPhases = (
+				1F18196A1F068B36004E4EE9 /* Sources */,
+				1F18196B1F068B36004E4EE9 /* Frameworks */,
+				1F18196C1F068B36004E4EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1819701F068B36004E4EE9 /* PBXTargetDependency */,
+			);
+			name = "波纹动画UITests";
+			productName = "波纹动画UITests";
+			productReference = 1F18196E1F068B36004E4EE9 /* 波纹动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1819471F068B36004E4EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gxf;
+				TargetAttributes = {
+					1F18194E1F068B36004E4EE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F1819621F068B36004E4EE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F18194E1F068B36004E4EE9;
+					};
+					1F18196D1F068B36004E4EE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F18194E1F068B36004E4EE9;
+					};
+				};
+			};
+			buildConfigurationList = 1F18194A1F068B36004E4EE9 /* Build configuration list for PBXProject "波纹动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1819461F068B36004E4EE9;
+			productRefGroup = 1F1819501F068B36004E4EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F18194E1F068B36004E4EE9 /* 波纹动画 */,
+				1F1819621F068B36004E4EE9 /* 波纹动画Tests */,
+				1F18196D1F068B36004E4EE9 /* 波纹动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F18194D1F068B36004E4EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F18195D1F068B36004E4EE9 /* LaunchScreen.storyboard in Resources */,
+				1F18195A1F068B36004E4EE9 /* Assets.xcassets in Resources */,
+				1F1819581F068B36004E4EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1819611F068B36004E4EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18196C1F068B36004E4EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F18194B1F068B36004E4EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1819551F068B36004E4EE9 /* ViewController.swift in Sources */,
+				1F1819531F068B36004E4EE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18195F1F068B36004E4EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1819681F068B36004E4EE9 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F18196A1F068B36004E4EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1819731F068B36004E4EE9 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1819651F068B36004E4EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F18194E1F068B36004E4EE9 /* 波纹动画 */;
+			targetProxy = 1F1819641F068B36004E4EE9 /* PBXContainerItemProxy */;
+		};
+		1F1819701F068B36004E4EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F18194E1F068B36004E4EE9 /* 波纹动画 */;
+			targetProxy = 1F18196F1F068B36004E4EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F1819561F068B36004E4EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1819571F068B36004E4EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F18195B1F068B36004E4EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F18195C1F068B36004E4EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F1819751F068B36004E4EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1819761F068B36004E4EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1819781F068B36004E4EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "波纹动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F1819791F068B36004E4EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "波纹动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F18197B1F068B36004E4EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "波纹动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/波纹动画.app/波纹动画";
+			};
+			name = Debug;
+		};
+		1F18197C1F068B36004E4EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "波纹动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/波纹动画.app/波纹动画";
+			};
+			name = Release;
+		};
+		1F18197E1F068B36004E4EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "波纹动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "波纹动画";
+			};
+			name = Debug;
+		};
+		1F18197F1F068B36004E4EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "波纹动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "波纹动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F18194A1F068B36004E4EE9 /* Build configuration list for PBXProject "波纹动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1819751F068B36004E4EE9 /* Debug */,
+				1F1819761F068B36004E4EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1819771F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1819781F068B36004E4EE9 /* Debug */,
+				1F1819791F068B36004E4EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F18197A1F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18197B1F068B36004E4EE9 /* Debug */,
+				1F18197C1F068B36004E4EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F18197D1F068B36004E4EE9 /* Build configuration list for PBXNativeTarget "波纹动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F18197E1F068B36004E4EE9 /* Debug */,
+				1F18197F1F068B36004E4EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1819471F068B36004E4EE9 /* Project object */;
+}
